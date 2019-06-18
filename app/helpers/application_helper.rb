@@ -6,7 +6,7 @@ module ApplicationHelper
     if page_name.empty? # 引数を受け取っているか判定
       base_title # 引数page_nameが空の場合はbase_titleのみ返す
     else # 引数page_nameが空白ではない場合
-      page_name + "|" + base_title　# 文字列を連結して返す
+      page_name + "|" + base_title # 文字列を連結して返す
     end
   end
 end
